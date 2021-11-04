@@ -78,12 +78,13 @@ body {
 #conteudo {
   display: flex;
   flex: 1;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0px 50px;
 }
 
 .lado-esquerdo {
-    width: 800px;
-    font-size: 22px;
+    width: 1200px;
+    font-size: 26px;
     height: max-content;
     padding: 60px 20px;
 }
@@ -93,8 +94,8 @@ body {
 }
 
 .lado-direito {
-  width: 300px;
-  font-size: 16px;
+  width: 600px;
+  font-size: 20px;
   height: max-content;
   padding: 60px 20px;
 }

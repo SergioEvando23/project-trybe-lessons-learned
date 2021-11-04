@@ -56,8 +56,26 @@ body {
   margin-left: 50px;
 }
 
-#rodape {
-    background-color:rgb(50, 162, 114) ;
-    color:rgb(253, 251, 251);
-    text-align: center;
+#conteudo {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px 15px; 
 }
+
+#artigo {
+  width: 800px;
+  font-size: 22px;
+}
+
+#passagem {
+  width: 300px;
+  font-size: 16px;
+}
+
+#rodape {
+  background-color:rgb(50, 162, 114) ;
+  color:rgb(253, 251, 251);
+  text-align: center;
+}
+

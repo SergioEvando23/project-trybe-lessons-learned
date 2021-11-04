@@ -19,4 +19,15 @@ body {
   width: 200px;
   border-radius: 100%;
   border: 2px solid rgb(59, 199, 138);
+  margin: 20px 20px;
+}
+
+#listas {
+  display: flex;
+  flex: 1;
+  margin: 40px 40px
+}
+  
+#listas ul {
+    margin-left: 50px;
 }

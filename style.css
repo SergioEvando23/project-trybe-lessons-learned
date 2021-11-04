@@ -5,21 +5,28 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  overflow-x: hidden;
 }
 
 #cabecalho {
   position: fixed;
+  width: 100%;
   top: 0px;
   line-height: 80px;
   padding-left: 30px;
   background-color: rgb(59, 199, 138);
+  display: inline;
+}
+
+#cabecalho h1 {
+    width: 300px;
 }
 
 #minha_foto {
   width: 200px;
   border-radius: 100%;
   border: 2px solid rgb(59, 199, 138);
-  margin: 20px 20px;
+  margin: 90px 20px 0 20px;
 }
 
 #listas {
@@ -29,5 +36,11 @@ body {
 }
   
 #listas ul {
-    margin-left: 50px;
+  margin-left: 50px;
+}
+
+#rodape {
+    background-color:rgb(50, 162, 114) ;
+    color:rgb(253, 251, 251);
+    text-align: center;
 }

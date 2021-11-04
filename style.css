@@ -7,75 +7,121 @@ body {
   background-color: rgb(253, 251, 251);
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
+  height: 100vw;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 #cabecalho {
   position: fixed;
   width: 100%;
   top: 0px;
-  line-height: 80px;
+  line-height: 100px;
   padding-left: 30px;
   background-color: rgb(59, 199, 138);
   display: inline;
 }
 
 #cabecalho h1 {
-    width: 300px;
+  width: 300px;
 }
 
 #menu {
-    float: right;
-    margin-right: 30px;
+  float: right;
+  margin-right: 30px;
 }
 
 #menu a {
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-right: 10px;
-    text-decoration: none;
-    color: white;
-    background-color: rgb(48, 172, 118);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(48, 172, 118);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
 
 #minha_foto {
   width: 200px;
+  height: 200px;
   border-radius: 100%;
   border: 2px solid rgb(59, 199, 138);
-  margin: 90px 20px 0 20px;
+  margin: 150px 0px 20px 50px;
+}
+
+#apresentacao h2 {
+  margin: 0px 0px 0px 00px;
+  width: 100%;
+  background-color: #cccccc;
+  text-align: center;
+  font-size: 20px;
 }
 
 #listas {
   display: flex;
   flex: 1;
-  margin: 40px 40px
+  margin: 100px 40px;
 }
-  
-#listas ul {
-  margin-left: 50px;
+
+#listas ul, #listas ol {
+  margin-left: 30px;
+}
+
+#tabelas tr {
+  display: flex;
+  flex-direction: column;
+  line-height: 21.4px;
+  margin-top: 0;
 }
 
 #conteudo {
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-    padding: 10px 15px; 
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
 }
 
-#artigo {
-  width: 800px;
-  font-size: 22px;
+.lado-esquerdo {
+    width: 800px;
+    font-size: 22px;
+    height: max-content;
+    padding: 60px 20px;
 }
 
-#passagem {
+#artigo:hover {
+    background-color: #cccccc;
+}
+
+.lado-direito {
   width: 300px;
   font-size: 16px;
+  height: max-content;
+  padding: 60px 20px;
+}
+
+#passagem:hover {
+    background-color: #cccccc;
+}
+
+#referencia {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+
+
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 12px;
 }
 
 #rodape {
   background-color:rgb(50, 162, 114) ;
   color:rgb(253, 251, 251);
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-
